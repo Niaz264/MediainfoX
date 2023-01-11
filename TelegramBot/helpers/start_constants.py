@@ -26,7 +26,7 @@ ABOUT_CAPTION = f"""• Python version : {__python_version__}
 
 START_ANIMATION = "https://graph.org/file/aaab3d4135ca233f2b0a7.mp4"
 
-START_CAPTION = """Hey there!! Welcome to Sito Cloud Mediainfo Bot😀"""
+START_CAPTION = """Hey there!! I am simple Telegram Bot wich is made for the purpose for generating video files frames and mediainfo from Telegram files and links"""
 
 
 
