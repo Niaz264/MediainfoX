@@ -8,12 +8,11 @@ ENV TZ=America/Los_Angeles
 
 RUN apt-get -qq update --fix-missing 
 
-RUN apt-get -qq install -y git wget curl busybox python3 python3-pip locales
+RUN apt-get -qq install -y git wget curl busybox python3 python3-pip locales ffmpeg
 
 RUN apt install python3-pip
 RUN pip3 install psycopg2-binary
 RUN apt-get install -y mediainfo
-RUN apt-get install ffmpeg
 
 COPY requirements.txt .
 
