@@ -23,7 +23,7 @@ async def update(_, message: Message):
     os.execl(sys.executable, sys.executable, "-m", "TelegramBot")
 
 
-commands = ["restart"]
+commands = ["r"]
 @Client.on_message(filters.command(commands, **prefixes))
 @dev_commands
 @ratelimiter
